@@ -17,7 +17,8 @@ var AppComponent = (function () {
         core_1.Component({
             selector: "my-component",
             directives: [angular2_materialize_1.MaterializeDirective],
-            template: "\n    <!-- Modal Trigger -->\n    <div class=\"waves-effect btn modal-trigger\">Modal</div>\n    <!-- Modal Structure -->\n    <!--<div id=\"modal1\" class=\"modal\">\n      <div class=\"modal-content\">\n        <h4>Modal Header</h4>\n        <p>A bunch of text</p>\n      </div>\n      <div class=\"modal-footer\">\n        <a href=\"#!\" class=\" modal-action modal-close waves-effect waves-green btn-flat\">Agree</a>\n      </div>\n    </div-->\n      "
+            styles: [require('./app.styles.styl')],
+            template: "\n    <!-- Modal Trigger -->\n    <div class=\"waves-effect btn modal-trigger\">Modal</div>\n    <!-- Modal Structure -->\n    <div id=\"modal1\" class=\"modal\">\n      <div class=\"modal-content\">\n        <h4>Modal Header</h4>\n        <p>A bunch of text</p>\n      </div>\n      <div class=\"modal-footer\">\n        <a href=\"#!\" class=\" modal-action modal-close waves-effect waves-green btn-flat\">Agree</a>\n      </div>\n    </div>\n      "
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

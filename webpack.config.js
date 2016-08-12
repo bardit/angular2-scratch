@@ -36,8 +36,8 @@ module.exports = {
         loaders: ['style', 'css']
       },
       {
-        test: /\.scss$/,
-        loaders: ['raw', 'csso', 'postcss', 'sass?sourceMap']
+        test: /\.styl$/,
+        loader: 'style-loader!css-loader!stylus-loader'
       },
       {
         test: /\.woff$/,
